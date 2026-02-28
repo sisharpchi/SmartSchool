@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bff", "Bff", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{79A62383-9C35-4C1F-ADA6-F810DE51A0CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{983B3688-CAED-4766-B00C-50941AD8C131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartSchool.Web", "Web\SmartSchool.Web\SmartSchool.Web.csproj", "{9293E036-3036-4888-86EF-2C83584C29BE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9293E036-3036-4888-86EF-2C83584C29BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9293E036-3036-4888-86EF-2C83584C29BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9293E036-3036-4888-86EF-2C83584C29BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9293E036-3036-4888-86EF-2C83584C29BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9293E036-3036-4888-86EF-2C83584C29BE} = {983B3688-CAED-4766-B00C-50941AD8C131}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA3FAA7F-7B89-4CFC-85DE-A665289C0847}
